@@ -1,0 +1,183 @@
+
+
+html {
+  font-size: 18px;
+  font-family: Helvetica;
+  line-height: 1.4;
+}
+
+body {
+  margin: 0;
+}
+
+/**Banner/Header Structure**/
+
+.banner {
+  display: flex;
+  justify-content: center;
+  background-image: url("../images/glasses-bg.png");
+  background-size: cover;
+  width: 100%;
+  height: 31rem;
+}
+
+.bannercontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 31rem;
+  width: 960px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 1rem;
+  background-color: cadetblue;
+  height: auto;
+  padding: 1rem 2rem;
+}
+
+/**Logo**/
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 1.5rem;
+}
+
+.logo span {
+  padding-left: 1rem;
+  font-size: 1rem;
+  color: white;
+}
+
+/**Navigation**/
+
+nav a {
+  color: white;
+  padding-left: 2rem;
+}
+
+.bannerbox {
+  position: relative;
+  top: 10rem;
+  left: 2rem;
+  background-color: white;
+  padding: 1.5rem 5rem;
+}
+
+.bannerbox h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+/**Services**/
+
+.sitecontainer {
+  display: flex;
+  flex-direction: column;
+  width: 960px;
+}
+
+.maincontainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 14rem;
+}
+
+.exams,
+.fittings,
+.delivery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 8rem;
+  width: 10rem;
+  padding: 0 3rem;
+}
+
+.exams p,
+.fittings p,
+.delivery p {
+  text-align: center;
+}
+
+.exams img {
+  height: auto;
+  width: 3.5rem;
+}
+
+.fittings img {
+  height: auto;
+  width: 5rem;
+}
+
+.delivery img {
+  height: auto;
+  width: 5rem;
+}
+
+/**Business Philosophy and Appointment Information**/
+
+.info {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.info h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: cadetblue;
+  color: white;
+  width: 10rem;
+  padding: 0.5rem 1.25rem;
+}
+
+.philosophy,
+.appointments {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+.appointments {
+  padding-left: 5%;
+}
+
+/**Footer and Copyright**/
+
+.footer {
+  display: flex;
+  align-items: center;
+  background-color: azure;
+  height: 10rem;
+
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+}
+.copyright img {
+  height: 1.5rem;
+  padding-left: 4rem;
+  padding-right: 1rem;
+}
