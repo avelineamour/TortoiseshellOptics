@@ -192,10 +192,9 @@ nav a {
 }
 
 /**Tablet and Mobile Landscape Mode**/
-
-@media only screen
 /**and (min-width: 649px)
 and (max-width: 960px) Again, Worked in My Testing on Browser, But Just Using Same Points from Secret Agent Supply**/
+@media only screen
 and (max-width: 1024px) {
 
   .bannercontainer {
@@ -222,9 +221,8 @@ and (max-width: 1024px) {
 }
 
 /**Mobile Portrait**/
-
-@media only screen
 /**and (max-width: 648px) This breakpoint worked in browser but not on a phone**/
+@media only screen
 and (max-width: 480px)
 and (min-width: 320px) {
   .logo span {
